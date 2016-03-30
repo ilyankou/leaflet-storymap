@@ -55,6 +55,9 @@ function initMap() {
             id: 'container' + feature.properties['id'],
             class: 'image-container'
           });
+
+          var i;
+
           container.append(chapter).append(image).append(source).append(description);
           $('#contents').append(container);
           // Watch the current scroll postion for scroll-driven map navigation!
