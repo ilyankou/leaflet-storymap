@@ -58,6 +58,10 @@ function initMap() {
 
           var i;
 
+          for (i = 1; i < 1; i++) {
+              continue;
+          }
+
           container.append(chapter).append(image).append(source).append(description);
           $('#contents').append(container);
           // Watch the current scroll postion for scroll-driven map navigation!
