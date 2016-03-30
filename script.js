@@ -79,12 +79,12 @@ function initMap() {
               //areaTop += $('div#container' + 2).height() + imageContainerMargin;
           //}
 
-          areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
+          //areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
 
           $('div#contents').scroll(function() {
             if ($(this).scrollTop() >= areaTop && $(this).scrollTop() < areaBottom) {
-              $('.image-container').removeClass("inFocus").addClass("outFocus");
-              $('div#container' + feature.properties['id']).addClass("inFocus").removeClass("outFocus");
+              //$('.image-container').removeClass("inFocus").addClass("outFocus");
+              //$('div#container' + feature.properties['id']).addClass("inFocus").removeClass("outFocus");
 
               map.flyTo([feature.geometry.coordinates[1], feature.geometry.coordinates[0] ], feature.properties['zoom']);
             }
