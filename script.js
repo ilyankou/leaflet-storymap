@@ -57,6 +57,17 @@ function initMap() {
           });
           container.append(chapter).append(image).append(source).append(description);
           $('#contents').append(container);
+
+
+          var i;
+var areaTop = -1 * $(window.top).height() / 3;
+var areaBottom = 0;
+
+
+areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
+
+
+
           // Watch the current scroll postion for scroll-driven map navigation!
           var areaHeight = $('.image-container').height() + 50;
           var areaTop = (feature.properties['id']-1) * areaHeight - 50; // -50 is a minor adjustment
