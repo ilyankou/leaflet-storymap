@@ -69,12 +69,12 @@ function initMap() {
 
           container.append(chapter).append(imgHolder).append(source).append(description);
           $('#contents').append(container);
-
+/*
           var i;
           var areaTop = -1 * $(window.top).height() / 3;
           var areaBottom = 0;
 
-
+*/
           $('div#contents').scroll(function() {
             if ($(this).scrollTop() >= areaTop && $(this).scrollTop() < areaBottom) {
               //$('.image-container').removeClass("inFocus").addClass("outFocus");
