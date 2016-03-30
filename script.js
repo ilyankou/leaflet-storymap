@@ -77,9 +77,9 @@ function initMap() {
           console.log(areaTop);
 
           // Calculating total height of blocks above active
-          for (i = 1; i < feature.properties['id']; i++) {
-              areaTop += $('div#container' + i).height() + imageContainerMargin;
-          }
+          //for (i = 1; i < feature.properties['id']; i++) {
+              areaTop += $('div#container' + 2).height() + imageContainerMargin;
+          //}
 
           areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
 
