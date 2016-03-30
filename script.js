@@ -74,12 +74,6 @@ function initMap() {
           var areaTop = -1 * $(window.top).height() / 3;
           var areaBottom = 0;
 
-          // Calculating total height of blocks above active
-          //for (i = 1; i < feature.properties['id']; i++) {
-              //areaTop += $('div#container' + 2).height() + imageContainerMargin;
-          //}
-
-          //areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
 
           $('div#contents').scroll(function() {
             if ($(this).scrollTop() >= areaTop && $(this).scrollTop() < areaBottom) {
