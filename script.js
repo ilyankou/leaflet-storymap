@@ -58,7 +58,7 @@ function initMap() {
 
           var i;
 
-          for (i = 1; i < 7; i++) {
+          for (i = 1; i < feature.properties['id']; i++) {
               continue;
           }
 
