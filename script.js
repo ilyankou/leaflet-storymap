@@ -57,9 +57,11 @@ function initMap() {
           });
 
           var i;
+          var areaTop;
+          var areaBottom = 0;
 
           for (i = 1; i < feature.properties['id']; i++) {
-              continue;
+              areaTop += $('div#container' + i).height() + imageContainerMargin;
           }
 
           container.append(chapter).append(image).append(source).append(description);
