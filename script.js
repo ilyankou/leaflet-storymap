@@ -64,6 +64,8 @@ function initMap() {
               areaTop += $('div#container' + i).height() + imageContainerMargin;
           }
 
+          areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
+
           container.append(chapter).append(image).append(source).append(description);
           $('#contents').append(container);
           // Watch the current scroll postion for scroll-driven map navigation!
