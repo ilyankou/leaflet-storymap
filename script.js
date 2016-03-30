@@ -60,7 +60,7 @@ function initMap() {
 
 
           var i;
-var areaTop = -1 * $(window.top).height() / 3;
+var areaTop = 0;
 var areaBottom = 0;
 
 
