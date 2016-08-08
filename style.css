@@ -146,13 +146,14 @@ p.description {
     height: 180vh;
   }
   #title {
-    width: 70%;
-    left: 15%;
+    width: 80%;
+    left: 10%;
+    min-width: 0;
   }
   #narration {
-    width: 70%;
+    width: 80%;
     min-width: 0;
-    left: 15%;
+    left: 10%;
     background: none;
     opacity: 0.8;
   }
