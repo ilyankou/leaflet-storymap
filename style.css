@@ -119,9 +119,6 @@ h3 {
 
 .description {
     margin: 20px;
-}
-
-p.description {
     text-align: left;
     font-size: 11pt;
     padding: 20px;
@@ -155,6 +152,9 @@ p.description {
     left: 10%;
     background: none;
     opacity: 0.8;
+  }
+  .description {
+      padding: 0;
   }
   .leaflet-control-container {
       display: none;
