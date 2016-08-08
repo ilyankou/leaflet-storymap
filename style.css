@@ -151,6 +151,7 @@ p.description {
   }
   #narration {
     width: 70%;
+    min-width: 0;
     left: 15%;
     background: none;
     opacity: 0.8;
