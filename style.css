@@ -155,6 +155,7 @@ h3 {
   }
   .description {
       padding: 0;
+      padding-bottom: 10px;
   }
   .leaflet-control-container {
       display: none;
